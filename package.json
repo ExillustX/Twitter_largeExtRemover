@@ -1,0 +1,19 @@
+{
+  "name": "twitter_largeextremover",
+  "version": "1.0.0",
+  "description": "This script iterates over files the in given the directory to remove \"_large\" from the file name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExillustX/twitter_largeExtRemover.git"
+  },
+  "author": "ExillustX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ExillustX/twitter_largeExtRemover/issues"
+  },
+  "homepage": "https://github.com/ExillustX/twitter_largeExtRemover#readme"
+}
