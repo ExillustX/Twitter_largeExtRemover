@@ -28,4 +28,4 @@ You can also skip the confirmation prompt by passing the ``--destructive`` flag:
 node index.js directory/path --destructive
 ```
 
-Make sure to change ``directory/path`` with the directory path you want.
+Note: Make sure to change ``directory/path`` with the directory path you want. And if you are on Windows use slashes instead of backslasehs. E.g. `C:/directory/path`.
