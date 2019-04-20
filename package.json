@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ExillustX/twitter_largeExtRemover#readme",
   "dependencies": {
-    "commander": "^2.20.0"
+    "commander": "^2.20.0",
+    "prompt-confirm": "^2.0.4"
   }
 }
