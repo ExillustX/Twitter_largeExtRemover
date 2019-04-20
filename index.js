@@ -22,7 +22,7 @@ function main(cmdPath, destructive) {
     }
   });
   if (files.length == 0) {
-    console.log('No files found!')
+    console.log('No files found!');
     process.exit();
   }
   if (!destructive || typeof destructive === 'undefined') {
@@ -52,10 +52,10 @@ function rename(cmdPath) {
   console.log('Starting...');
   files.forEach(file => {
     fs.rename(path.join(cmdPath, file), path.join(cmdPath, file.slice(0, -6)), function(error) {
-      console.log(`Renaming ${file}...`)
+      console.log(`Renaming ${file}...`);
       if (error) {
         console.error(error);
       }
     });
-  })
+  });
 }
